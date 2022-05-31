@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #222f3e;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    outline: none;
+    padding: 20px 15px;
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    border-radius: 12px;
+    padding: 16px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+    
+}
+
+button:hover {
+    background-color: #262626;
+    color: #fff;
+}
